@@ -39,7 +39,7 @@
     {{ partial "menu.html" . }}
         <section id="body">
         <div id="overlay"></div>
-        <div class="padding highlightable sticky-parent">
+        <div class="padding highlightable sticky-parent {{if .IsHome}} homepage  {{ end }}">
               {{if not .IsHome}}
               <div class="sticky-spacer">
                 <div id="top-bar">
