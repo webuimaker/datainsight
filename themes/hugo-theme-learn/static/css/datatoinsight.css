@@ -46,7 +46,7 @@
 }
 .block-xs-middle h4{
 	text-align:left;
-	color:#fff;	
+	color:#fff !important;	
     line-height: 1.2;	
 }
 .form-subscribe input[type="email"]{
