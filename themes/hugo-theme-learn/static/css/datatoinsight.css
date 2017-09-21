@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat; 
   /*background:url(/images/startup-0.svg) #3073a4; */
-  background:url(/images/startup-0.svg) #2473ad; 
+  background:url(/images/startup-0.svg) #2473ad bottom no-repeat; 
  }
  .block-fill-height {
   display: table;
@@ -46,9 +46,8 @@
 }
 .block-xs-middle h4{
 	text-align:left;
-	color:#fff;
-	margin-bottom: 0px;
-    line-height: 1.2;
+	color:#fff;	
+    line-height: 1.2;	
 }
 .form-subscribe input[type="email"]{
 	float:left;
